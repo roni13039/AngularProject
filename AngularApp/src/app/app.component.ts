@@ -27,7 +27,7 @@ export class AppComponent
   }
   OpenItemModal()
   {
-   this.modalSvc.open(ItemModalComponent);
+   this.modalSvc.open(ItemModalComponent,{backdrop : 'static', keyboard : false});
 
   }
 }
